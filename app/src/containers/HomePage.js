@@ -27,7 +27,10 @@ export default function HomePage() {
     <React.Fragment>
       <Container>
         <Actions>
-          <Searchbar />
+          <Searchbar
+            placeholder="Search for a country..."
+            aria-label="Search for a country"
+          />
           <DropDownMenu
             label="Filter by region"
             options={[

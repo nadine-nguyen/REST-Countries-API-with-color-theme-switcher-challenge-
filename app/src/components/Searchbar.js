@@ -53,7 +53,6 @@ export default function Searchbar({ onChange, onEnter, ...inputProps }) {
       <SearchIcon as={FontAwesomeIcon} icon={faSearch} />
       <SearchInput
         type="search"
-        placeholder="Search for a country..."
         onChange={onChange}
         onKeyUp={handleOnKeyUp}
         {...inputProps}
